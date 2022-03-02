@@ -13,7 +13,6 @@ const places = [
         id: 3,
         name: "Italy",
         language: "Italian"
-        
     },
     {
         id: 4,
@@ -25,13 +24,11 @@ const places = [
         id: 5,
         name: "Florida",
         language: "English",
-        
-        
     },
     {
         id: 6,
         name: "Australia",
-        language: "English",        
+        language: "English",
     },
     {
         id: 7,
@@ -42,22 +39,17 @@ const places = [
         id: 8,
         name: "England",
         language: "English",
-        
-
     },
     {
         id: 9,
         name: "China",
         language: "Chinese",
-        
-
     },
     {
         id: 10,
         name: "Canada",
         language: "English",
-                
     },
 ]
 
-module.exports = {places}
+module.exports = places;
