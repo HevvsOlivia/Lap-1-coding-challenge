@@ -1,9 +1,10 @@
-const button1 = document.querySelector('#button1');
-const button2 = document.querySelector('#button2');
+// const button1 = document.querySelector('#button1');
+// const button2 = document.querySelector('#button2');
+// const placesData = require('../server/models/data.js');
 
 //button to get all places
 // button1.addEventListener('click', showAllPlaces())
-button2.addEventListener('click', getRandomPlace)
+// button2.addEventListener('click', getRandomPlace)
 
 // function showAllPlaces(jsonResponse) {
 //     let allPlaces = jsonResponse['places']
@@ -33,12 +34,15 @@ button2.addEventListener('click', getRandomPlace)
 //button to get random place
 
 
-function getRandomPlace(e) {
-    e.preventDefault()
+function getRandomPlace() {
+    // e.preventDefault()
     fetch('http://localhost:3000/places/random')
         .then(resp => resp.json())
         .then(function (text) {
-            document.getElementById('text').innerHTML = text.name;
+            document.getElementById('name').innerHTML = text.name;
+            document.getElementById('language').innerHTML = text.language;
         }
         )
 }
+
+getRandomPlace();
