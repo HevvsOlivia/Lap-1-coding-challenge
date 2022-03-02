@@ -17,6 +17,9 @@ Installation and Usage
 
 
 
+
+
+
 Technologies
 
 Javascript
@@ -24,6 +27,9 @@ Javascript
 Express
 
 Node
+
+
+
 
 
 
@@ -47,9 +53,15 @@ Changelog
 
 
 
+
+
+
 Bugs 
 
 none
+
+
+
 
 
 
