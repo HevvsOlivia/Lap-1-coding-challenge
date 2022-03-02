@@ -5,13 +5,16 @@ Installation and Usage
 
 -Clone or download the repo
 
--Open terminal and navigate to Lap-1-coding-challeneg folder 
+-Open terminal and navigate to Lap-1-coding-challenge folder 
 
 -Install node modules
 
 -Navigate to server folder 
 
 -In terminal write "node app.js"
+
+-------------------------------------------------------
+
 
 
 
@@ -23,6 +26,8 @@ Express
 
 Node
 
+
+-------------------------------------------------------
 
 
 Changelog 
@@ -44,10 +49,15 @@ Changelog
 
 
 
+-------------------------------------------------------
+
 
 Bugs 
 
 none
+
+
+-------------------------------------------------------
 
 
 
