@@ -6,16 +6,38 @@
 
 body {
     background-color: #202124;
-    font-family: 'Dancing Script', cursive;
     font-family: 'Poppins', sans-serif;
     color: white;
 }
 
-h1 {
+h1,
+.buttons {
     margin-left: 20px;
     margin-top: 20px
 }
 
 p {
     margin-left: 20px;
+}
+
+.button {
+    background-color: #303134;
+    border: none;
+    color: white;
+    font-size: 15px;
+    padding: 10px 20px;
+    border-radius: 4px;
+    outline: none;
+
+}
+
+.button:hover {
+    border: 1px solid #c8c8c8;
+    padding: 9px 19px;
+    color: #808080;
+}
+
+.button:focus {
+    border: 1px solid #4885ed;
+    padding: 9px 19px;
 }

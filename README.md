@@ -9,11 +9,9 @@ Installation and Usage
 
 -Install node modules
 
--Install nodemon 
-
 -Navigate to server folder 
 
--In terminal write "npx nodemon app.js"
+-In terminal write "node app.js"
 
 
 
