@@ -1,9 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #202124;
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+h1 {
+    margin-left: 20px;
+    margin-top: 20px
+}
+
+p {
+    margin-left: 20px;
 }
