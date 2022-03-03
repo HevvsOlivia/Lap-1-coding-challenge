@@ -15,11 +15,11 @@ class Place {
 
     static findById(id) {
         try {
-            const placeData = placesData.find((place) => place.id === id)[0];
+            const placeData = placesData.filter((place) => place.id === id)[0];
             const place = new Place(placeData);
-            return place
-        } catch(e) {
-            throw new Error("This place does not exist")
+            return place;
+        } catch(err) {
+            throw new Error("This place does not exist");
         }
         
     }
